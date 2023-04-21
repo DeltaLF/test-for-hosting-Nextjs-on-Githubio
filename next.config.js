@@ -14,12 +14,13 @@ if (isGithubActions) {
 }
 
 module.exports = {
-  output: "export",
-  assetPrefix: assetPrefix,
-  basePath: basePath,
   images: {
     unoptimized: true,
   },
+  assetPrefix: assetPrefix,
+  basePath: basePath,
+
+  output: "export",
 };
 const nextConfig = {
   reactStrictMode: true,
